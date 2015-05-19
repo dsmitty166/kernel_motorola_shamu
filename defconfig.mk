@@ -14,6 +14,9 @@ endif
 endif
 endif
 
+
+##
+#
 # append all additional configs
 ifneq ($(KERNEL_EXTRA_CONFIG),)
 PRODUCT_SPECIFIC_DEFCONFIGS += $(KERNEL_EXTRA_CONFIG:%=$(LJAPDEFCONFIGSRC)/%.config)
